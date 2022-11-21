@@ -1,0 +1,132 @@
+
+.outer-container {
+    background-image: url('/static/frank.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content-block {
+    white-space: nowrap;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width:30em){ 
+    .ind-content {
+        width: 87% !important;
+    }
+}
+
+.ind-content {
+    width: 35%;
+    height:100%; 
+    font-family: 'Oswald', sans-serif; 
+    border-color: #eeefe3 !important; 
+    white-space: normal; 
+    word-wrap: break-word;
+}
+
+
+
+
+
+#about {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.date {
+    margin-bottom: 0px; 
+    font-family: 'Oswald', sans-serif;
+    color: #ec5735;
+}
+
+.title {
+    margin-bottom: 20px; 
+    font-weight: 500; 
+    margin-top: 15px; 
+    color:#eedcbb;
+    font-family: 'Oswald', sans-serif;
+}
+
+.action-blue {
+    color: #ec5735;
+}
+
+
+.title_1 {
+    font-weight: bolder; 
+    letter-spacing: 1.5px; 
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+
+.item {
+    padding: 2px;
+    margin: 1px;
+    color: whitesmoke;
+}
+.bg-dark {
+ background-color:#12171c !important;
+}
+
+.events {
+    background-color: #161a1e;
+}
+
+#events-content {
+    background-color:#181d22;
+}
+
+.meetings {
+    background-color: #1a1c20;
+}
+
+#meetings-content {
+    background-color: #202227;
+}
+
+.p-news {
+    background-color: #171d24;
+}
+
+#p-news-content {
+    background-color: #1b222a;
+}
+
+.info-text{
+    margin-left: 10px;
+    margin-right: auto;
+    text-align: left;
+}
+
+.logo {
+    height: 50px;
+    padding-left: 25px;
+}
+
+.label {
+    color: #6e90c3;
+    padding-top:5px;
+}
+
+.vh-75 {
+    height: 75vh;
+}
+
+.vh-50 {
+    height: 50vh;
+}
+
+.parag {
+    color: whitesmoke;
+}
+
+.parag::first-letter{
+    font-size: 200%;
+}
+

@@ -19,9 +19,7 @@ class PoliceNewsSpider(scrapy.Spider):
             # Cast str html into HtmlResponse object for data manipulation
             response = HtmlResponse(url='', body=k, encoding='utf-8')   
 
-            # Instantiate & populate Scrapy Item Object
             news_item = NewsItem()
-
             news_item['Title'] = response.xpath('//a[@class="title"]/@title').get()
             news_item['Date'] = response.xpath('//div[@class="date"]/text()').get()
             news_item['Desc'] = response.xpath('//div[@class="summary"]/text()').get()

@@ -52,7 +52,6 @@ class LibraryEventsSpider(scrapy.Spider):
         events = resp.get('events')
 
         # for loop constructing ind LibraryEvent objects 
-        print(len(events))
         for event in events:
             
             library_event = LibraryEvent()
